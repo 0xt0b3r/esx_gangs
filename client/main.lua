@@ -263,7 +263,7 @@ Citizen.CreateThread(function()
 				local coords = GetEntityCoords(PlayerPedId())
 				local distance = GetDistanceBetweenCoords(coords, v.coords.x, v.coords.y, v.coords.z, true)
 				if(distance < Config.DrawDistance) then
-					DrawMarker(1, v.coords.x, v.coords.y, v.coords.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 1.5, 1.5, 0.5, v.Markers.Color.r, v.Markers.Color.g, v.Markers.Color.b, 100, false, true, 2, false, false, false, false)   
+					DrawMarker(1, v.coords.x, v.coords.y, v.coords.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 1.5, 1.5, 0.5, 1.5, 0.5, 0, 100, false, true, 2, false, false, false, false)   
 
 					if distance < 1.5 then --[ TRASSSHHHHHH ]
 						curMarker = v.name
