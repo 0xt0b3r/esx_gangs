@@ -15,7 +15,6 @@ Config.Gangs = {
             name = "Example Gang Blip",
         },
         Markers = { -- [ Markers for gang management/etc. ]
-            Color = {r = 0, g = 0, b = 0}, -- [ Color of markers ]
             boss = { -- [Society actions]
                 name = "boss",
                 coords = {x = 0,y = 0,z = 0},
